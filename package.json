@@ -1,0 +1,12 @@
+{
+  "name": "akim-ai-telegram",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node bot.js", "dev": "node --watch bot.js"},
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^5.12.2",
+    "telegraf": "^4.16.3"
+  }
+}
